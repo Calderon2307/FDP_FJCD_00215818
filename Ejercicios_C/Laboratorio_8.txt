@@ -1,0 +1,31 @@
+1-) ¿Que es ser autodidacta?
+
+En resumen es aprender algo por cuenta propia
+
+2-) Investigar que son matrices (definicion, sintaxis, etc)
+
+Las matrices en C son arreglos de multiples dimensiones, por un lado tenemos los arreglos normales que son solo de una dimension (solo tienen 1 fila) pero con las matrices estas ya tienen mas "dimensiones" o filas, practicamente las matrices son arreglos con arreglos dentro de ellas.
+
+Para poder trabajar con matrices en C, se hace por medio de ciclos "for", se utilizan 2, por lo cual se deben utilizar 2 contadores, el primer ciclo for (con el contador i, o cualquier nombre que se le quiera dar) se encargara de las filas de la matriz y el segundo ciclo for, ira dentro del primero (con el contador j, o cualquier nombre que se le quiera dar) y este se encargara de las columnas y funciona de la siguiente manera:
+
+    Con el primer ciclo for, se ingresara a la primer fila y se ingresara al segundo for directamente con el que se iran colocando los elementos de cada columna, en este ciclo for es adonde vamos a colocar el "print" que ira colocando los datos y se declara en codigo asi:
+
+    for (i = 0, i < N, i++) En donde N es un numero ingresado por el usuario y seran las filas de la matriz
+    {
+        for (j = 0, j < M, j++) En donde M es otro numero ingresado por el usuario y seran las columnas de la matriz
+        {
+            printf("ingrese el dato %i, %i: ", i+1+, j+1);
+            scanf("%i ", &Matriz[i][j]); En donde "Matriz" es el nombre de nuestra matriz
+
+        }
+    }
+
+Como se puede observar, se ira guardando primero en la fila 1 y entrara a la columna 1 hasta la M, luego saldra del ciclo for y entrara a la fila 2 y asi hasta llegar a la fila N y acabar con toda la matriz.
+
+Por ultimo, los datos pueden ser de cualquier tipo, pero todos los demas datos ingresados deben ser del mismo, por, por ejemplo, se inicializan con datos "int", todos los datos ingresados deben ser enteros ahora y asi con los float, double, etc. 
+
+3-) Listar 3 fuentes de donde aprender (canales de Youtube, foros, paginas, etc)
+
+-Dorian Designs - Diseño Web, Front-end (Canal Youtube)
+-Empiece a Programar - C, Java, Movil (Canal Youtube)
+-Adderly Cespedes - Programacion para juegos (Canal Youtube)
